@@ -22,7 +22,8 @@
 
 ### SRP Single Responsibility Principle <a name="srp"></a>
 > - Trata-se das responsabilidades de Classes
-> - Este principio, diz que uma classe deve ter uma responsabilidade única. Ou seja, aqui no código de exemplo, utilizamos uma abstração de carrinho de compras. 
+> - Este principio, diz que uma classe deve ter uma responsabilidade única. 
+> - Aqui no código de exemplo, utilizamos uma abstração de carrinho de compras sem os principios SRP na pasta app_carrinho_compras e uma abstração de carrinho de compras com principios SRP na pasta app_carrinho_compras_b. 
 > - O carrinho de compras, deve possuir atributos e métodos fazendo apenas o que um carrinho de compras deveria fazer. No primeiro projeto, aplicamos uma Classe sem organização do SRP, vemos que o carrinho de compras, além de armazenar os itens de compra (que é a responsabilidade única dele) faz todo processo de pedido, criação de itens, e até envio de emails.
 > - Esta abordagem é utilizada em muitos projetos que utilizam o paradgma de orientação abordagem. Trazendo uma maçaroba de atributos, métodos, e centenas de ifs que acabam tornando o código muito complicado. Além de inviabilizar a manutenção dele. 
 > - No SRP, as abstrações devem focar no que elas são de fato (Abstrair objetos o máximo possível, com suas respectivas responsabilidades e nada mais que isso.). Sendo assim, temos códigos independentes, de fácil manutenção, e evitamos alterar alguma linha e quebrar outras partes do sistema. 
