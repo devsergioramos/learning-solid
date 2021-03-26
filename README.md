@@ -12,13 +12,15 @@
 > - As melhores práticas da Programação Orientada a Objetos
 > - Desenvolvimento de aplicações com baixo acoplamento e alta coesão
 > - Conceitos avançados de Orientação a Objetos
-
-
-1. O projeto app_carrinho_compras não aplica os principios SOLID.
-2. O projeto app_carrinho_compras_b aplica os principios SOLID. 
-3. Use ambos para comparar as mudanças estruturais entre um código com o SOLID e sem o SOLID
+>
 
 ### SRP Single Responsibility Principle <a name="srp"></a>
+
+1. O projeto app_carrinho_compras não aplica os principios SRP.
+2. O projeto app_carrinho_compras_b aplica os principios SRP. 
+3. Use ambos para comparar as mudanças estruturais entre um código com o SRP e sem o SRP
+
+
 > - Trata-se das responsabilidades de Classes
 > - Este principio, diz que uma classe deve ter uma responsabilidade única. 
 > - Aqui no código de exemplo, utilizamos uma abstração de carrinho de compras sem os principios SRP na pasta app_carrinho_compras e uma abstração de carrinho de compras com principios SRP na pasta app_carrinho_compras_b. 
