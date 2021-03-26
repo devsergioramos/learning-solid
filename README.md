@@ -13,8 +13,6 @@
 > - Desenvolvimento de aplicações com baixo acoplamento e alta coesão
 > - Conceitos avançados de Orientação a Objetos
 
-##### Link do curso - [SOLID - Os 5 Princípios para as Boas Práticas da POO](https://www.udemy.com/course/solid-os-5-principios-para-as-boas-praticas-da-poo/)
-
 
 1. O projeto app_carrinho_compras não aplica os principios SOLID.
 2. O projeto app_carrinho_compras_b aplica os principios SOLID. 
