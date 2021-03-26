@@ -5,6 +5,9 @@ require __DIR__."/vendor/autoload.php";
 use App\CarrinhoCompra;
 
 $carrinho1 = new CarrinhoCompra();
+
+echo "<h3>Sem SRP</h3>";
+
 echo "Status: ".$carrinho1->exibirStatus();
 echo "<br />";
 echo "Carrinho: ";

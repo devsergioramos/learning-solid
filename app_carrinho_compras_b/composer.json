@@ -1,0 +1,16 @@
+{
+    "name": "sergio/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergio",
+            "email": "sergio.ramos@unemat.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    }
+}
