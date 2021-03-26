@@ -1,6 +1,6 @@
 ## Vamos aprender SOLID
-
-#### Curso SOLID - Os 5 Princípios para as Boas Práticas da POO
+##### Aqui vou sintetizar conteúdos que tenho aprendido no Curso SOLID - Os 5 Princípios para as Boas Práticas da POO e no livro Clean Architecture do tio Uncle BOB
+#### SOLID - Os 5 Princípios para as Boas Práticas da POO e Clean Architecture
 
 > ### O que vamos aprender
 > - [Teoria e prática SRP - Single Responsibility Principle](#srp)
