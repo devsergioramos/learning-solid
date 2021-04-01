@@ -20,12 +20,9 @@
 2. O projeto app_carrinho_compras_b aplica os principios SRP. 
 3. Use ambos para comparar as mudanças estruturais entre um código com o SRP e sem o SRP
 
-<<<<<<< HEAD
 1. O projeto app_carrinho_compras não aplica os principios SOLID.
 2. O projeto app_carrinho_compras_b aplica os principios SOLID.
 3. Use ambos para comparar as mudanças estruturais entre um código com o SOLID e sem o SOLID
-=======
->>>>>>> 715af452c03f3d3e9cd23c774c68feab6fd2840f
 
 > - Trata-se das responsabilidades de Classes
 > - Este principio, diz que uma classe deve ter uma responsabilidade única. 
