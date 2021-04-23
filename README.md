@@ -39,7 +39,7 @@
 2. O projeto app_etl_B aplica os principios OCP. 
 3. Use ambos para comparar as mudanças estruturais entre um código com o OCP e sem o OCP
 
-- Trata-se de que Classes, módulos, funções, etc... Devem sempre estar abertas para extensões, no entanto fechados para terações. 
+- Trata-se de que Classes, módulos, funções, etc... Devem sempre estar abertas para extensões, no entanto fechados para alterações. 
 
 - Este principio nos estimula a abstrair classes modularizando de forma a fornecer extensibilidade. 
 
