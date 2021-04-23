@@ -1,0 +1,18 @@
+version: '2'
+
+volumes:
+    data:
+
+services:
+###########################
+# Setup the Nginx container
+###########################
+    nginx:
+        container_name: app_carrinho_compras_frontend
+        image: nginx:latest
+        ports:
+            - 8080:80
+        volumes:
+            - ../devops/docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        volumes_from:
+            - php
