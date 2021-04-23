@@ -37,7 +37,9 @@
 > - Trata-se de que Classes, módulos, funções, etc... Devem sempre estar abertas para extensões, no entanto fechados para alterações. 
 > - Este principio nos estimula a abstrair classes modularizando de forma a fornecer extensibilidade. 
 > - Mas primeiro, o que é uma alteração e expansão de código?
+> 
 > **Alteração**: Uma alteração ocorre quando precisamos acessar uma classe já existente para incluir comportamentos ou pra modificar comportamentos (inlcuir ou modificar métodos;)
+> 
 > **Expansão**: Uma expansão de código requer uma conduta de abstração de código sofisticada quando estamos criando as classes. Já devemos pensar desde então como as classes poderão ser extendidas, afim de quando houver necessidade de implementar novos comportamentos possamos usa-la extendendo-a e aplicando os novos metodos na classe filha. 
 > - Temos o seguinte cenário: 
 > Em nosso projeto app_etl aplicamos duas classes com responsabilidade unica, a classe Leitor responsavel pela leitura dos arquivos e a classe arquivo responsavel por manipular os dados dos arquivos. Veja bem, em nossa classe arquivo houve a necessidade de ler arquivos TXT e CSV, ou seja precisamos implementar dois metodos que manipulam arquivos distinto. Isto faz parte do escopo de responsabilidade de arquivo, porém fere o principio open/closed pois sempre que precisarmos ler outro tipo de arquivo, teremos que implementar outro método responsavel por lidar com aquele tipo de arquivo. Portanto, nossa classe será alterada não respeitando a classe que deveria estar fechada para alterações
