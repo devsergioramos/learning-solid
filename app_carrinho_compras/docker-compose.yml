@@ -1,0 +1,64 @@
+version: '2'
+
+volumes:
+    data:
+
+services:
+###########################
+# Setup the Nginx container
+###########################
+    nginx:
+        container_name: app_carrinho_compras_frontend
+        image: nginx:latest
+        ports:
+            - 8080:80
+        volumes:
+            - ../devops/docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        volumes_from:
+            - php
+
+###########################
+# Setup the PHP container
+###########################
+    php:
+        container_name: app_carrinho_compras_php
+        build: ../devops/docker/php/
+        expose:
+            - 9000
+        volumes:
+            - .:/var/www/html
+        links:
+            - mysql
+
+###########################
+# Setup the Database (MySQL) container
+###########################
+    mysql:
+        container_name: app_carrinho_compras_banco
+        image: mysql:5.6
+        ports:
+          - "3306:3306"
+        volumes:
+          - data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: blog
+            MYSQL_DATABASE: blog
+            MYSQL_USER: blog
+            MYSQL_PASSWORD: blog
+
+###########################
+# Setup the Database (PhpMyAdmin) container
+###########################
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: app_carrinho_compras_phpmyadmin
+        ports:
+            - 8888:80
+        links:
+            - mysql
+        environment:
+            PMA_ARBITRARY: 1
+            MYSQL_ROOT_PASSWORD: blog
+            MYSQL_USER: blog
+            MYSQL_PASSWORD: blog
+

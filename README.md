@@ -1,18 +1,37 @@
-## Vamos aprender SOLID
-##### Aqui vou sintetizar conteúdos que tenho aprendido no Curso SOLID - Os 5 Princípios para as Boas Práticas da POO e no livro Clean Architecture do tio Uncle BOB
-### SOLID - Os 5 Princípios para as Boas Práticas da POO e Clean Architecture
+# Vamos aprender SOLID
+
+Aqui vou sintetizar conteúdos que tenho aprendido no Curso SOLID - Os 5 Princípios para as Boas Práticas da POO e no livro Clean Architecture do tio Uncle BOB
+
+## SOLID 
+
+Os 5 Princípios para as Boas Práticas da POO e Clean Architecture
 
 ### O que vamos aprender
+
 - [Teoria e prática SRP - Single Responsibility Principle](#srp)
 - [Teoria e prática OCP - Open/Closed Principle](#ocp)
 - [Teoria e prática] LSP - Liskov Substitution Principle
 - [Teoria e prática] ISP - Interface Segregation Principle
 - [Teoria e prática] DIP - Dependency Inversion Principle
-
 - As melhores práticas da Programação Orientada a Objetos
 - Desenvolvimento de aplicações com baixo acoplamento e alta coesão
 - Conceitos avançados de Orientação a Objetos
 
+## Develop
+
+Para desenvolver foi criado alguns script e configurado um docker para facilitar os arquivos
+
+## Required
+
+- docker
+- docker-compose
+- make
+
+## Run in dev
+
+Para rodar o projeto app_carrinho_compras basta rodar o comando: `make ci-carrinho`
+
+Para rodar o projeto app_carrinho_compras basta rodar o comando: `make up-carrinho`
 
 #### SRP Single Responsibility Principle <a name="srp"></a>
 
