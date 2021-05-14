@@ -1,0 +1,15 @@
+{
+    "name": "sergio/app_poligonos",
+    "authors": [
+        {
+            "name": "Sergio Ramos",
+            "email": "sergio.ramos@unemat.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
