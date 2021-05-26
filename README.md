@@ -2,6 +2,8 @@
 
 Aqui vou sintetizar conteúdos que tenho aprendido no Curso SOLID - Os 5 Princípios para as Boas Práticas da POO e no livro Clean Architecture do tio Uncle BOB
 
+Lembrando que este repositório será construido aos poucos conforme meu aprendizado sobre os conceitos. 
+
 ## SOLID 
 
 Os 5 Princípios para as Boas Práticas da POO e Clean Architecture
